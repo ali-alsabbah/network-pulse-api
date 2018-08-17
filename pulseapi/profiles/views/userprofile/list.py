@@ -7,8 +7,11 @@ from rest_framework import filters
 from rest_framework.generics import ListAPIView
 
 from profiles.models import UserProfile
-from profiles.serializers import UserProfilePublicWithEntriesSerializer, UserProfileBasicSerializer, \
+from pulseapi.profiles.serializers import (
+    UserProfilePublicWithEntriesSerializer,
+    UserProfileBasicSerializer,
     UserProfilePublicSerializer
+)
 
 
 # NOTE: DRF has deprecated the FilterSet class in favor of
