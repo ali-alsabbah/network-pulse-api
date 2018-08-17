@@ -4,6 +4,8 @@ from pulseapi.profiles.models.programyear import ProgramYear
 from pulseapi.profiles.models.userbookmarks import UserBookmarks
 from pulseapi.profiles.models.userprofile import UserProfile, entry_thumbnail_path
 
+from pulseapi.profiles.models.organizationprofile import OrganizationProfile
+
 __all__ = [
     'ProfileType',
     'ProgramType',
@@ -11,4 +13,5 @@ __all__ = [
     'UserProfile',
     'UserBookmarks',
     'entry_thumbnail_path',
+    'OrganizationProfile',
 ]
